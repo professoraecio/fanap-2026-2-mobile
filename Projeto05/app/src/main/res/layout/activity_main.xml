@@ -18,24 +18,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/personagemTextView"
+            android:id="@+id/dataEscolhidaTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="@string/label_data_escolhida" />
 
-        <ImageView
-            android:id="@+id/personagemImageView"
+        <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/donald" />
-
-        <NumberPicker
-            android:id="@+id/personagemNumberPicker"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        </NumberPicker>
-
+            android:onClick="escolherDataButtonAction"
+            android:text="@string/label_escolher_data" />
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

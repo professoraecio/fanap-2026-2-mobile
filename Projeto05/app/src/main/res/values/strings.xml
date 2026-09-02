@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto 05</string>
+
+    <string name="label_escolher_data">Escolher Data</string>
+    <string name="label_data_escolhida">Data Escolhida</string>
+
+</resources>
