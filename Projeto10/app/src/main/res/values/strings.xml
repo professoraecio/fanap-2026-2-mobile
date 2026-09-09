@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Projeto 10</string>
+
+    <string name="button_somente_aviso">Mostrar aviso ao usuário</string>
+    <string name="button_acao">Perguntar ao usuário uma decisão</string>
+    <string name="label_resultado">Resultado da ação do usuário</string>
+
+
+</resources>
