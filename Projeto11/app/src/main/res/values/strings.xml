@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projeto 11</string>
+
+    <string name="button_msg_curta">Emitir uma mensagem de curta duração</string>
+    <string name="button_msg_longa">Emitir uma mensagem de longa duração</string>
+
+</resources>
