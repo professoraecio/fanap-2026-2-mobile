@@ -1,6 +1,7 @@
 package com.professoraecio.agendaandroid.view;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,10 @@ import com.professoraecio.agendaandroid.R;
 
 public class DetalhesContatoActivity extends AppCompatActivity {
 
+    TextView nomeTextView;
+    TextView foneTextView;
+    TextView emailTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +27,10 @@ public class DetalhesContatoActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        nomeTextView = findViewById(R.id.nomeTextView);
+        foneTextView = findViewById(R.id.foneTextView);
+        emailTextView = findViewById(R.id.emailTextView);
+
     }
 }
