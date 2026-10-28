@@ -1,7 +1,7 @@
 {
   "name": "agendaapi",
   "version": "1.0.0",
-  "description": "API REST para consumo de dados de uma agenda",
+  "description": "API REST para consumo de dados em MySql de uma Agenda",
   "keywords": [
     "API",
     "REST",
@@ -20,7 +20,9 @@
     "cors": "^2.8.6",
     "express": "^5.3.0",
     "morgan": "^1.12.1",
-    "mysql": "^2.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }

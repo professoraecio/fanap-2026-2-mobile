@@ -7,18 +7,16 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended : false}));
 app.use(bodyParser.json());
 
+const contatoDao = require('./rotas/contatoDao');
+app.use(URL_BASE + '/contato-dao',contatoDao);
+
+/*
 // http://localhost:3000/api.agenda
 app.use(URL_BASE,(req,res,next) => {
     res.status(200).send({
-        response : 'URL PADRAO DO APP FUNCIONOU!'
+        response : 'ROTA padrão da API REST funcionou!'
     });
 });
-
-// rota nao encontrada
-app.use((req,res,next) => {
-    const erro = new Error('Rota Inexistente');
-    erro.status = 404;
-    next(erro);
-});
+*/
 
 module.exports = app;
