@@ -20,5 +20,6 @@ public class Contato implements Serializable {
     }
 
     public void setEmail(String email) {
+        
     }
 }
